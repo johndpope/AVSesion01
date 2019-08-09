@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_obtener_todos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obtener Todos" />
+
+    <Button
+        android:id="@+id/btn_obtener_categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obtener Categoria" />
+
+    <Button
+        android:id="@+id/btn_grabar_categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grabar Categoria" />
+
+    <Button
+        android:id="@+id/btn_update_categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Categoria" />
+
+    <Button
+        android:id="@+id/btn_delete_categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Categoria" />
+
+</LinearLayout>
